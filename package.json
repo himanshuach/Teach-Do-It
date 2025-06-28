@@ -1,0 +1,41 @@
+{
+  "name": "teach-do-it",
+  "version": "1.0.0",
+  "description": "Teach-Do-It is an educational website built with HTML, CSS, and JavaScript, offering a platform for learning and teaching.",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -p 8000 -o",
+    "dev": "http-server -p 8000 -o -c-1",
+    "serve": "python -m http.server 8000",
+    "build": "echo 'Static site - no build process needed'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "education",
+    "learning",
+    "courses",
+    "website",
+    "html",
+    "css",
+    "javascript",
+    "responsive",
+    "teaching"
+  ],
+  "author": "Mohit Singh & Dhaneshwar Kumar",
+  "contributors": [
+    "Mohit Singh <mcdowellswifi653@gmail.com>",
+    "Dhaneshwar Kumar"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/Teach-Do-It.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/Teach-Do-It/issues"
+  },
+  "homepage": "https://github.com/your-username/Teach-Do-It#readme"
+}
